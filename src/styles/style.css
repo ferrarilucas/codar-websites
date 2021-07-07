@@ -1,0 +1,147 @@
+:root{
+    --secondary-color: #D6000D;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+header{
+  position: fixed;
+  top:0;
+  left: 0;
+  display: inline-flex;  
+  align-items: center;
+  width: 100vw;
+  background-color: #fff;
+}
+
+header h1{
+    margin: .2em 0 .2em 0;
+    padding-left: 1em;
+    color: var(--secondary-color);
+}
+
+header div{
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+header div a{
+    margin-right: 1em;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.btn-red{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 35px;
+    color: #fff;
+    font-weight: 500;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.colum-1{
+    width: 50%;
+}
+.colum-2{
+  width: 50%;
+}
+
+.first-view{
+    display: flex;
+    flex-flow:row wrap;
+    margin-top: 20vh;
+    height: 100vh;
+
+}
+
+.first-view img{
+    margin-left: 3em;
+    width: 30em;
+}
+
+.first-view .colum-2{
+
+    margin-top: 20vh ;
+}
+
+.first-view b{
+    font-size: 2em;
+}
+.first-view h4{
+    margin: 0 0 1em 0;
+    font-size: 4em;
+    color: var(--secondary-color);
+}
+
+.first-view a{
+    font-size: 1.5em;
+}
+
+.servicos{
+    display: flex;
+    flex-flow:row wrap;
+}
+
+.servicos img{
+    width: 30em;
+}
+
+.servicos ul{
+    list-style: none;
+}
+
+.servicos ul li{
+    margin-left: 5em;
+    margin-right: 20vw ;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.servicos ul li p{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.servicos ul li i{
+    padding-right: .5em;
+    color: var(--secondary-color);
+    font-size: 1.8em;
+}
+.servicos img{
+    position: absolute;
+    left: 35em;
+    top: 49em;
+}
+
+
+
+.contato h2{
+    margin-top: 1em;
+    margin-left: 5em;
+}
+
+.contato input{
+    margin-bottom: 3em;
+    margin-left: 9em;
+    width: 20em;
+    height: 3.8em;
+    border-radius: 15px;
+    border: 1px solid rgba(41, 41, 41, 0.527);
+    padding-left: 2em;
+}
+
+.contato button{
+    border: none;
+    box-shadow: none;
+    height: 3em;
+    font-size: 18px;
+}
+
