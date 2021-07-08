@@ -52,7 +52,7 @@ header div a{
     width: 50%;
 }
 .colum-2{
-  width: 50%;
+  width: 40%;
 }
 
 .first-view{
@@ -64,14 +64,16 @@ header div a{
 }
 
 .first-view img{
-    margin-left: 3em;
+    margin-left: 25%;
     width: 30em;
 }
 
 .first-view .colum-2{
 
     margin-top: 20vh ;
+    margin-left: 10%;
 }
+
 
 .first-view b{
     font-size: 2em;
@@ -89,6 +91,7 @@ header div a{
 .servicos{
     display: flex;
     flex-flow:row wrap;
+    position: relative;
 }
 
 .servicos img{
@@ -100,7 +103,7 @@ header div a{
 }
 
 .servicos ul li{
-    margin-left: 5em;
+    margin-left: 25%;
     margin-right: 20vw ;
     display: inline-flex;
     align-items: center;
@@ -119,21 +122,19 @@ header div a{
 }
 .servicos img{
     position: absolute;
-    left: 50vw;
-    top: 120vh;
+    right: 10%;
+    top: 1vh;
     z-index: 0;
 }
 
-
-
 .contato h2{
     margin-top: 1em;
-    margin-left: 5em;
+    margin-left: 14%;
 }
 
 .contato input{
     margin-bottom: 3em;
-    margin-left: 9em;
+    margin-left: 14%;
     margin-right: .5em;
     width: 20em;
     height: 3.8em;
@@ -155,24 +156,86 @@ header div a{
 }
 
 .comentarios{
-    display: flex;
-    justify-content: space-between;
-    margin: 10em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    justify-content: center;
+    margin:20rem 10rem;
 }
 
 .comentarios .coment{
-    padding: 3em;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap:1rem;
     background-color: var(--gray-scale);
     flex-flow: column;
-    width: 25vw;
+    width: 35vw;
     max-height: 10vh;
     border-radius: 20px;
+    padding: 1rem 3rem 3rem 2rem;
 }
 
 .coment i{
-    font-size: px;
+ 
+    color: var(--secondary-color);
+    font-size: 80px;
 }
 
-.coment p{
+.coment div p{
+    margin-top: 0;
+}
 
+.coment div b {
+    display: block;
+}
+
+.coment div b:first-of-type{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.coment div b + b{
+    font-weight: 400;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    padding: 0 10em;
+}
+
+footer div{
+    position: relative;
+    margin-top: 5em;
+    margin-bottom: 17em;
+}
+
+footer div h1,
+footer div h2{
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+footer div small{   
+    margin-top: 2vh;
+}
+
+footer a{
+    display: block;
+    padding-right: 4rem;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+footer i{
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
+footer small{
+    font-size: 15px;
 }
