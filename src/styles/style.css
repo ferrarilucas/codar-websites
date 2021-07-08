@@ -1,5 +1,6 @@
 :root{
     --secondary-color: #D6000D;
+    --gray-scale: #DCDCDC;
 }
 body{
     padding: 0;
@@ -15,6 +16,7 @@ header{
   align-items: center;
   width: 100vw;
   background-color: #fff;
+  z-index: 1;
 }
 
 header h1{
@@ -117,8 +119,9 @@ header div a{
 }
 .servicos img{
     position: absolute;
-    left: 35em;
-    top: 49em;
+    left: 50vw;
+    top: 120vh;
+    z-index: 0;
 }
 
 
@@ -131,11 +134,17 @@ header div a{
 .contato input{
     margin-bottom: 3em;
     margin-left: 9em;
+    margin-right: .5em;
     width: 20em;
     height: 3.8em;
-    border-radius: 15px;
-    border: 1px solid rgba(41, 41, 41, 0.527);
+    border-radius: 10px;
+    border: none;
     padding-left: 2em;
+    background-color: var(--gray-scale);
+}
+
+.contato input:focus{
+    border: none;
 }
 
 .contato button{
@@ -145,3 +154,25 @@ header div a{
     font-size: 18px;
 }
 
+.comentarios{
+    display: flex;
+    justify-content: space-between;
+    margin: 10em;
+}
+
+.comentarios .coment{
+    padding: 3em;
+    background-color: var(--gray-scale);
+    flex-flow: column;
+    width: 25vw;
+    max-height: 10vh;
+    border-radius: 20px;
+}
+
+.coment i{
+    font-size: px;
+}
+
+.coment p{
+
+}
