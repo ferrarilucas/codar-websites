@@ -1,0 +1,211 @@
+@media screen and (max-width: 1000px) {
+    .first-view{
+        margin-top: 10vh;
+    }
+    .first-view .colum-1{
+        margin-top: 0;
+        margin-left:10%;
+        height: 20vh;
+    }
+    .first-view .colum-2{
+        width: 100%;
+        margin-top: 5vh;
+        margin-left: 23vw;
+    }
+    .first-view a{
+        margin-left: 8%;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .servicos .colum-1{
+        width: 100%;
+    }
+    .servicos ul{
+       display: block;
+       margin-top: 70vh;
+       margin-left: 12%;
+    }
+    .servicos img{
+        top: 20vh;
+        right: 14%;
+        width: 25rem;
+    }
+
+}
+
+@media screen and (max-width: 660px){
+    .first-view .colum-1{
+        height: 23vh;
+        margin-left:0;
+    }
+
+    .first-view img{
+        margin-left: 20%;
+    }
+
+    .first-view .colum-2{
+        width: 100%;
+        margin-top: 5vh;
+        margin-left: 13%;
+    }
+    .first-view a{
+        margin-left: 10%;
+    }
+
+    .contato h2{
+        margin-left: 25%;
+    }
+    .contato input{
+        margin-bottom: 2rem;
+        margin-left: 28%;
+        display: block;
+    }
+    .contato button{
+        margin-left: 32%;
+    }
+
+    .comentarios{
+        display: block;
+        margin: 10rem 4rem;
+    }
+
+    .comentarios .coment{
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    footer{
+        display: block;
+        padding: 0 1em;
+    }
+
+    footer div:first-of-type{
+        padding-top: 3vh;
+    }
+
+    footer div {
+        margin-top: 0;
+        margin-bottom: 2rem;
+        margin-left: 20%;
+    }
+
+    footer div:last-of-type{
+        margin-bottom: 0;
+        padding-bottom: 2vh;
+    }
+
+    footer div h1, 
+    footer div h2{
+        padding-bottom: .5rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    header{
+        display: block;
+    }
+
+    header h1{
+        padding-left: 38%;
+    }
+
+    header div{
+        padding-left: 15%;
+        padding-bottom: 1rem;
+    }
+
+    .first-view{
+        margin-top: 18vh;
+        height: 90vh;
+    }
+
+    .first-view .colum-1{
+        height: 1rem;
+    }
+
+    .first-view .colum-2{
+        height: 2vh;
+    }
+
+    .first-view img{
+        width: 20rem;
+        margin-top: 5vh;
+        margin-left: 35%;
+    }
+    .first-view .colum-2{
+        margin-top: 0;
+        margin-left: 15%;
+    }
+
+    .first-view b{
+        font-size: 1.5rem;
+    }
+
+    .first-view h4{
+        font-size: 3rem;
+    }
+
+    .first-view a{
+        margin-left: 1%;
+    }
+
+    .servicos ul{
+        display: block;
+        margin-top: 70vh;
+        margin-left: 0;
+    }
+
+    .servicos img{
+        right: 10%;
+    }
+
+    .contato h2{
+        margin-left: 20%;
+    }
+    .contato input{
+        margin-left: 23%;
+        display: block;
+    }
+    .contato button{
+        margin-left: 29%;
+    }
+
+    .comentarios{
+        margin: 10rem 5rem 10rem 3rem;
+    }
+
+}
+
+@media screen and (max-width: 488px){
+    header div .btn-red{
+        display: none;
+    }
+
+    header div{
+        padding-left: 25%;
+    }
+
+    .first-view {
+        margin-top: 15vh;
+    }
+
+    .servicos img{
+        top: 1vh;
+        right: 5%;
+    }
+
+    .servicos ul{
+        margin-top: 45vh;
+        margin-left: 0;
+    }
+    .contato h2 {
+        margin-left: 16%;
+    }
+    .contato input {
+        margin-left: 20%;
+    }
+    .contato button {
+        margin-left: 27%;
+    }
+}

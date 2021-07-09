@@ -170,15 +170,14 @@ header div a{
     background-color: var(--gray-scale);
     flex-flow: column;
     width: 35vw;
-    max-height: 10vh;
     border-radius: 20px;
-    padding: 1rem 3rem 3rem 2rem;
+    padding: 1rem 3rem 3rem 0rem;
 }
 
 .coment i{
- 
     color: var(--secondary-color);
     font-size: 80px;
+    padding-left: 1rem
 }
 
 .coment div p{
