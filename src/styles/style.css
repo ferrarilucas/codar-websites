@@ -1,0 +1,240 @@
+:root{
+    --secondary-color: #D6000D;
+    --gray-scale: #DCDCDC;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+header{
+  position: fixed;
+  top:0;
+  left: 0;
+  display: inline-flex;  
+  align-items: center;
+  width: 100vw;
+  background-color: #fff;
+  z-index: 1;
+}
+
+header h1{
+    margin: .2em 0 .2em 0;
+    padding-left: 1em;
+    color: var(--secondary-color);
+}
+
+header div{
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+header div a{
+    margin-right: 1em;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.btn-red{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 35px;
+    color: #fff;
+    font-weight: 500;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.colum-1{
+    width: 50%;
+}
+.colum-2{
+  width: 40%;
+}
+
+.first-view{
+    display: flex;
+    flex-flow:row wrap;
+    margin-top: 20vh;
+    height: 100vh;
+
+}
+
+.first-view img{
+    margin-left: 25%;
+    width: 30em;
+}
+
+.first-view .colum-2{
+
+    margin-top: 20vh ;
+    margin-left: 10%;
+}
+
+
+.first-view b{
+    font-size: 2em;
+}
+.first-view h4{
+    margin: 0 0 1em 0;
+    font-size: 4em;
+    color: var(--secondary-color);
+}
+
+.first-view a{
+    font-size: 1.5em;
+}
+
+.servicos{
+    display: flex;
+    flex-flow:row wrap;
+    position: relative;
+}
+
+.servicos img{
+    width: 30em;
+}
+
+.servicos ul{
+    list-style: none;
+}
+
+.servicos ul li{
+    margin-left: 25%;
+    margin-right: 20vw ;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.servicos ul li p{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.servicos ul li i{
+    padding-right: .5em;
+    color: var(--secondary-color);
+    font-size: 1.8em;
+}
+.servicos img{
+    position: absolute;
+    right: 10%;
+    top: 1vh;
+    z-index: 0;
+}
+
+.contato h2{
+    margin-top: 1em;
+    margin-left: 14%;
+}
+
+.contato input{
+    margin-bottom: 3em;
+    margin-left: 14%;
+    margin-right: .5em;
+    width: 20em;
+    height: 3.8em;
+    border-radius: 10px;
+    border: none;
+    padding-left: 2em;
+    background-color: var(--gray-scale);
+}
+
+.contato input:focus{
+    border: none;
+}
+
+.contato button{
+    border: none;
+    box-shadow: none;
+    height: 3em;
+    font-size: 18px;
+}
+
+.comentarios{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    justify-content: center;
+    margin:20rem 10rem;
+}
+
+.comentarios .coment{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap:1rem;
+    background-color: var(--gray-scale);
+    flex-flow: column;
+    width: 35vw;
+    border-radius: 20px;
+    padding: 1rem 3rem 3rem 0rem;
+}
+
+.coment i{
+    color: var(--secondary-color);
+    font-size: 80px;
+    padding-left: 1rem
+}
+
+.coment div p{
+    margin-top: 0;
+}
+
+.coment div b {
+    display: block;
+}
+
+.coment div b:first-of-type{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.coment div b + b{
+    font-weight: 400;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    padding: 0 10em;
+}
+
+footer div{
+    position: relative;
+    margin-top: 5em;
+    margin-bottom: 17em;
+}
+
+footer div h1,
+footer div h2{
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+footer div small{   
+    margin-top: 2vh;
+}
+
+footer a{
+    display: block;
+    padding-right: 4rem;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+footer i{
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
+footer small{
+    font-size: 15px;
+}
