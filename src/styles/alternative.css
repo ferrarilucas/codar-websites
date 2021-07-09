@@ -178,7 +178,7 @@
 
 }
 
-@media screen and (max-width: 488px){
+@media screen and (max-width: 500px){
     header div .btn-red{
         display: none;
     }
@@ -213,7 +213,7 @@
     }
 }
 
-@media screen and (max-width: 410px){
+@media screen and (max-width: 440px){
     .first-view img{
         width: 20rem;
         margin-top: 5vh;
