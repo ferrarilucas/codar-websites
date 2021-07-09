@@ -13,7 +13,7 @@
         margin-left: 23vw;
     }
     .first-view a{
-        margin-left: 8%;
+        margin-left: 3rem;
     }
 }
 
@@ -147,7 +147,7 @@
     }
 
     .first-view a{
-        margin-left: 1%;
+        margin-left: 1rem;
     }
 
     .servicos ul{
@@ -164,8 +164,9 @@
         margin-left: 20%;
     }
     .contato input{
-        margin-left: 23%;
         display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .contato button{
         margin-left: 29%;
@@ -190,6 +191,10 @@
         margin-top: 15vh;
     }
 
+    .first-view a{
+        margin-left: auto;
+    }
+
     .servicos img{
         top: 1vh;
         right: 5%;
@@ -202,10 +207,51 @@
     .contato h2 {
         margin-left: 16%;
     }
-    .contato input {
-        margin-left: 20%;
-    }
+   
     .contato button {
         margin-left: 27%;
+    }
+}
+
+@media screen and (max-width: 410px){
+    .first-view img{
+        width: 20rem;
+        margin-top: 5vh;
+        margin-left: 20%;
+    }
+    .first-view .colum-2{
+        margin-top: 0;
+        margin-left: 8%;
+    }
+
+    .first-view a{
+        margin-left: 0rem;
+    }
+
+    .servicos img{
+        width: 20rem;
+        right: 2rem;
+    }
+
+    .contato h2{
+        font-size: 1.3rem;
+    }
+    .contato button{
+        margin-left: 6rem;
+    }
+
+}
+
+@media screen and (max-height: 660px){
+    .first-view .colum-1{
+        height: 5rem;
+    }
+
+    .first-view .colum-2{
+        height: 4vh;
+    }
+
+    .servicos ul{
+        margin-top: 25rem;
     }
 }
